@@ -12,11 +12,11 @@ int main() {
         cin >> arr[i];
     }
     
-    bool isSorted = true;
+    bool isSorted = true; //function declarationfor sorted result
     cout << "Is array sorted? " ;
-    for (int i = 1; i < n; i++) {
-        if (arr[i] < arr[i - 1]) {
-            isSorted = false;
+    for (int i = 1; i < n; i++) { //iteration of the array
+        if (arr[i] < arr[i - 1]) { //comparison of the arrays on which of the two are higher 
+            isSorted = false; //fubnction declaration, if decision is met, then it will break resulting to false
             break;
         }
     }
