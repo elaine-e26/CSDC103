@@ -15,7 +15,7 @@ int main() {
     int even = 0, odd = 0;
     
     for (int i = 0; i < n; i++){
-        if (arr[i] % 2 == 0){
+        if (arr[i] % 2 == 0){ // operation to check if numbers are even, if certain iteration are met then it will be the counts on even and odd results
             even++;
         } else{
             odd++;
